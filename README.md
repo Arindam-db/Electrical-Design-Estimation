@@ -1,4 +1,4 @@
-Electrical Estimator
+##  Electrical Estimator
 
 A desktop application for room-by-room electrical load planning and cost estimation, built with **Python 3.12+ and PyQt6**.
 
@@ -8,8 +8,10 @@ Designed for electrical engineering students, junior engineers, and site estimat
 
 ##  Screenshots
 
-> Add screenshots here after your first run.  
-> `docs/screenshots/main_window.png`, `docs/screenshots/layout.png`
+
+![Main Window](docs/screenshots/main_window.png)
+
+![Floor Plan Layout](docs/screenshots/layout.png)
 
 ---
 
