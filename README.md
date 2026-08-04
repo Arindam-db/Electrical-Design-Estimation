@@ -1,4 +1,4 @@
-#Building Electrical Estimator (BEE)
+Electrical Estimator
 
 A desktop application for room-by-room electrical load planning and cost estimation, built with **Python 3.12+ and PyQt6**.
 
@@ -30,29 +30,6 @@ Designed for electrical engineering students, junior engineers, and site estimat
 - **Editable cost data** — prices stored in `data/material_costs.json`, no code changes needed
 
 ---
-
-## 🗂️ Project Structure
-
-```
-BuildingElectricalEstimator/
-├── main.py                      # Entry point
-├── ui/
-│   ├── main_window.py           # All GUI layout and event handling
-│   └── dialogs.py               # Placeholder for future dialogs
-├── calculations/
-│   ├── load_calc.py             # Core formulas (lights, fans, sockets, load)
-│   ├── wire_calc.py             # Wire length estimation
-│   └── material_calc.py        # Cost estimation (loads from JSON)
-├── drawing/
-│   └── layout_drawer.py        # Matplotlib floor-plan widget
-├── reports/
-│   ├── excel_export.py          # Placeholder
-│   └── pdf_export.py           # Placeholder
-├── data/
-│   ├── standards.json           # Default estimation standards
-│   └── material_costs.json     # Unit costs in ₹ (editable)
-└── saved_projects/             # User project files (auto-created)
-```
 
 ---
 
@@ -131,14 +108,6 @@ Open `data/material_costs.json` and update values — no code changes needed:
 
 ---
 
-## 🛠️ Tech Stack
-
-| Library | Purpose |
-|---|---|
-| PyQt6 | GUI framework |
-| matplotlib | Embedded floor-plan canvas |
-| numpy | Symbol position distribution (linspace) |
-| json (stdlib) | Project save/load, cost config |
 
 ---
 
@@ -153,38 +122,8 @@ Open `data/material_costs.json` and update values — no code changes needed:
 
 ---
 
-## 👨‍💻 Author
 
-**Arindam**  
-Electrical Engineering, 6th Semester  
-Tripura Institute of Technology (TIT), Narsingarh  
-
-Mini project developed as part of academic learning in building electrical systems and desktop application development.
+Pull requests are welcome.
 
 ---
 
-## 📄 License
-
-This project is released under the [MIT License](LICENSE).
-
-You are free to use, modify, and distribute this software for personal, academic, or commercial purposes with attribution.
-
----
-
-## 🤝 Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/your-feature`)
-3. Commit your changes (`git commit -m "Add: your feature description"`)
-4. Push to the branch (`git push origin feature/your-feature`)
-5. Open a Pull Request
-
----
-
-## ⭐ Acknowledgements
-
-- PyQt6 documentation — https://doc.qt.io/qtforpython/
-- matplotlib embedding guide — https://matplotlib.org/stable/gallery/user_interfaces/embedding_in_qt_sgskip.html
-- IS 732 / NBC 2016 — reference standards for electrical estimation rules
