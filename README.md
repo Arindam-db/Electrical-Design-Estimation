@@ -2,7 +2,7 @@
 
 A desktop application for room-by-room electrical load planning and cost estimation, built with **Python 3.12+ and PyQt6**.
 
-Designed for electrical engineering students, junior engineers, and site estimators who need a fast, offline tool to generate connected-load summaries, fixture counts, wire estimates, and schematic floor plans — without CAD software.
+Designed for electrical site estimators who need a fast, offline tool to generate connected-load summaries, fixture counts, wire estimates, and schematic floor plans — without CAD software. Though it's a very initial version of the app but I think it will help provide a quick overview of the project cost on the electrical side.
 
 ---
 
