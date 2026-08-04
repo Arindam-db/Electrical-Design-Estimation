@@ -1,0 +1,15 @@
+{
+  "_comment": "Default estimation standards. Values are loaded at startup and can be overridden in the UI.",
+  "lighting_area_per_light_m2": 9.0,
+  "fan_area_per_fan_m2": 12.0,
+  "sockets_per_room": 3,
+  "wire_wastage_factor": 1.3,
+  "diversity_factor": 0.8,
+  "unit_costs_inr": {
+    "light_fitting": 350,
+    "fan": 1500,
+    "socket_outlet": 200,
+    "ac_point": 800,
+    "wire_per_metre": 25
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "_comment": "Unit costs in Indian Rupees. Edit here — no code changes needed.",
+  "light_fitting":  350.0,
+  "fan":            1500.0,
+  "socket_outlet":  200.0,
+  "ac_point":       800.0,
+  "wire_per_metre":  25.0,
+  "conduit_factor":   0.15,
+  "labour_factor":    0.20
+}
