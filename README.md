@@ -6,14 +6,14 @@ Designed for electrical engineering students, junior engineers, and site estimat
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 > Add screenshots here after your first run.  
 > `docs/screenshots/main_window.png`, `docs/screenshots/layout.png`
 
 ---
 
-## ✨ Features
+##  Features
 
 - **Room-by-room input table** — name, dimensions, room type, AC flag
 - **Intelligent fixture calculation**
@@ -63,19 +63,19 @@ python main.py
 
 ---
 
-## 🚀 How to Use
+##  How to Use
 
 1. **Fill in Project Information** — project name, client name, building type.
 2. **Add rooms** using the *+ Add Room* button. Edit name, dimensions, room type, and check AC if applicable.
 3. **Adjust standards** if needed (defaults follow general IS/NBC guidelines).
-4. Click **⚡ Calculate** — results table and summary labels populate instantly.
+4. Click ** Calculate** — results table and summary labels populate instantly.
 5. Click **🗺 Generate Layout** — a schematic floor plan renders on the right panel.
 6. Use **Export PNG / SVG** buttons below the canvas to save the drawing.
-7. Click **💾 Save Project** to save your work as a `.json` file.
+7. Click ** Save Project** to save your work as a `.json` file.
 
 ---
 
-## 🔢 Calculation Logic
+##  Calculation Logic
 
 | Parameter | Formula |
 |---|---|
@@ -90,7 +90,7 @@ python main.py
 
 ---
 
-## 💰 Editing Unit Costs
+##  Editing Unit Costs
 
 Open `data/material_costs.json` and update values — no code changes needed:
 
@@ -108,17 +108,7 @@ Open `data/material_costs.json` and update values — no code changes needed:
 
 ---
 
-
----
-
-## 🗺️ Roadmap
-
-- [ ] Excel report export (`openpyxl`)
-- [ ] PDF estimation report (`reportlab`)
-- [ ] Room-type-specific rules (bathroom, store room, kitchen)
-- [ ] Conduit and DB sizing suggestions
-- [ ] Multi-floor support
-- [ ] Windows `.exe` packaging via PyInstaller
+At last thanks for using this repo 
 
 ---
 
